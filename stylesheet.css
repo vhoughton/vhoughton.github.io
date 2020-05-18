@@ -142,7 +142,7 @@ h1 {font-size: 30px;
   body
 {margin:-2px;
 margin-bottom:-2px;
-background-color:#f2f2f2;
+background-color:#FFEA99;
 font-size: 20px;
 color: #FC5322;
 font-weight: 400;
@@ -164,14 +164,14 @@ text-align:left;}
 
 @media (max-width: 500px) {
     h1 {font-size: 24px;
-  color: #404040;
+  color: #FC5322;
   font-weight: 400;
   font-family: 'Jost', sans-serif;}
 
     body
 {margin:-2px;
 margin-bottom:-2px;
-background-color:#f2f2f2;
+background-color:#FFEA99;
 font-size: 20px;
 color: #404040;
 font-weight: 400;
