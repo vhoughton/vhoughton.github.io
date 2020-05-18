@@ -76,9 +76,9 @@ font-weight: 400;
 font-family: 'Jost', sans-serif;}
 
 h4
-{font-size: 40px;
+{font-size: 18px;
 color: #FC5322;
-font-weight: 200;
+font-weight: bold;
 font-family: 'Jost', sans-serif;}
 
 .footer
@@ -89,7 +89,7 @@ right: 10;
 bottom: 4;
 left: 4;
 padding: 1rem;
-background-color: #FFEA99;
+background-color: #FFD9C7;
 text-align: center;
 color: #FC5322;
 font-size: 18px;
