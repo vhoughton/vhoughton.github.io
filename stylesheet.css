@@ -46,7 +46,7 @@ background-color:#f2f2f2;
 font-size: 18px;
 color: #404040;
 font-weight: 400;
-font-family: 'Karla', sans-serif;
+font-family: 'Jost', sans-serif;
 text-align:left;}
 
 #bg
@@ -73,13 +73,13 @@ h1
 {font-size: 40px;
 color: #404040;
 font-weight: 400;
-font-family: 'Karla', sans-serif;}
+font-family: 'Jost', sans-serif;}
 
 h4
 {font-size: 18px;
 color: #404040;
 font-weight: bold;
-font-family: 'Karla', sans-serif;}
+font-family: 'Jost', sans-serif;}
 
 .footer
 {
@@ -94,7 +94,7 @@ text-align: center;
 color: #404040;
 font-size: 18px;
 font-weight: 400;
-font-family: 'Karla', sans-serif;;
+font-family: 'Jost', sans-serif;;
 }
 
 .header
@@ -110,7 +110,7 @@ text-align: center;
 color: #404040;
 font-size: 18px;
 font-weight: 400;
-font-family: 'Karla', sans-serif;;
+font-family: 'Jost', sans-serif;;
 }
 
 /* unvisited link */
@@ -137,7 +137,7 @@ color: #404040;
 h1 {font-size: 30px;
   color: #404040;
   font-weight: 100;
-  font-family: 'Karla', sans-serif;}
+  font-family: 'Jost', sans-serif;}
 
   body
 {margin:-2px;
@@ -146,7 +146,7 @@ background-color:#f2f2f2;
 font-size: 20px;
 color: #404040;
 font-weight: 400;
-font-family: 'Karla', sans-serif;
+font-family: 'Jost', sans-serif;
 text-align:left;}
 
   .text1 {width:500px;
@@ -166,7 +166,7 @@ text-align:left;}
     h1 {font-size: 24px;
   color: #404040;
   font-weight: 400;
-  font-family: 'Karla', sans-serif;}
+  font-family: 'Jost', sans-serif;}
 
     body
 {margin:-2px;
@@ -175,7 +175,7 @@ background-color:#f2f2f2;
 font-size: 20px;
 color: #404040;
 font-weight: 400;
-font-family: 'Karla', sans-serif;
+font-family: 'Jost', sans-serif;
 text-align:left;}
 
 .main-container
@@ -189,7 +189,7 @@ float: none;
 position: relative;
 display: inline-block;
 font-weight: 400;
-font-family: 'Karla', sans-serif;}
+font-family: 'Jost', sans-serif;}
 
 .text-container {
 float: left;
@@ -202,7 +202,7 @@ float:none;
 position: relative;
 display: inline-block;
 font-weight: 400;
-font-family: 'Karla', sans-serif;}
+font-family: 'Jost', sans-serif;}
 
 .emptyblock
 {width:100%;
