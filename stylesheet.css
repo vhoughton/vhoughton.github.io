@@ -49,7 +49,13 @@ font-weight: 400;
 font-family: 'Jost', sans-serif;
 text-align:left;}
 
-#bg
+#bg1
+{width: 100%;
+margin-bottom: -4px;
+background-color: #A84D65;
+padding: 0px;}
+
+#bg2
 {width: 100%;
 margin-bottom: -4px;
 background-color: #FFEA99;
@@ -71,13 +77,13 @@ position: relative;}
 
 h1
 {font-size: 40px;
-color: #FC5322;
+color: ##D6F2FF;
 font-weight: 400;
 font-family: 'Jost', sans-serif;}
 
 h4
 {font-size: 18px;
-color: #FC5322;
+color: ##D6F2FF;
 font-weight: bold;
 font-family: 'Jost', sans-serif;}
 
