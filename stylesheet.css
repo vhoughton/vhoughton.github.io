@@ -44,7 +44,7 @@ body
 margin-bottom:-2px;
 background-color:#D6F2FF;
 font-size: 18px;
-color: ##9A475D;
+color: #D6F2FF;
 font-weight: 400;
 font-family: 'Jost', sans-serif;
 text-align:left;}
@@ -52,13 +52,13 @@ text-align:left;}
 #bg1
 {width: 100%;
 margin-bottom: -4px;
-background-color: #A84D65;
+background-color: ##9A475D;
 padding: 0px;}
 
 #bg2
 {width: 100%;
 margin-bottom: -4px;
-background-color: #D6F2FF;
+background-color: ##9A475D;
 padding: 0px;}
 
 #bg img
@@ -66,7 +66,7 @@ padding: 0px;}
 
 #bgtop {width: 100%;
   height: 380px;
-  background-color: #D6F2FF;
+  background-color: ##9A475D;
   position: relative;
   overflow: auto;}
 
@@ -111,9 +111,9 @@ right: 10;
 bottom: 4;
 left: 4;
 padding: 1rem;
-background-color: #D6F2FF;
+background-color: #9A475D;
 text-align: center;
-color: ##9A475D;
+color: #D6F2FF;
 font-size: 18px;
 font-weight: 400;
 font-family: 'Jost', sans-serif;;
@@ -121,22 +121,22 @@ font-family: 'Jost', sans-serif;;
 
 /* unvisited link */
 a:link {
-color: ##9A475D;
+color: ##D3C4E3;
 }
 
 /* visited link */
 a:visited {
-color: ##9A475D;
+color: ##D3C4E3;
 }
 
 /* mouse over link */
 a:hover {
-color: ##9A475D;
+color: #7B82CC;
 }
 
 /* selected link */
 a:active {
-color: ##9A475D;
+color: #7B82CC;
 }
 
 @media (max-width: 800px){
@@ -148,9 +148,9 @@ h1 {font-size: 30px;
   body
 {margin:-2px;
 margin-bottom:-2px;
-background-color:#D6F2FF;
+background-color:#9A475D;
 font-size: 20px;
-color: ##9A475D;
+color: #58504A;
 font-weight: 400;
 font-family: 'Jost', sans-serif;
 text-align:left;}
@@ -170,16 +170,16 @@ text-align:left;}
 
 @media (max-width: 500px) {
     h1 {font-size: 24px;
-  color: ##9A475D;
+  color: #D6F2FF;
   font-weight: 400;
   font-family: 'Jost', sans-serif;}
 
     body
 {margin:-2px;
 margin-bottom:-2px;
-background-color:#D6F2FF;
+background-color:#9A475D;
 font-size: 20px;
-color: #404040;
+color: 58504A;
 font-weight: 400;
 font-family: 'Jost', sans-serif;
 text-align:left;}
