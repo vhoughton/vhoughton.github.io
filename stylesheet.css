@@ -42,7 +42,7 @@ float:left;}
 body
 {margin:-2px;
 margin-bottom:-2px;
-background-color:#D6F2FF;
+background-color:#9A475D;
 font-size: 18px;
 color: #D6F2FF;
 font-weight: 400;
@@ -52,13 +52,13 @@ text-align:left;}
 #bg1
 {width: 100%;
 margin-bottom: -4px;
-background-color: ##9A475D;
+background-color: #9A475D;
 padding: 0px;}
 
 #bg2
 {width: 100%;
 margin-bottom: -4px;
-background-color: ##9A475D;
+background-color: #9A475D;
 padding: 0px;}
 
 #bg img
@@ -66,7 +66,7 @@ padding: 0px;}
 
 #bgtop {width: 100%;
   height: 380px;
-  background-color: ##9A475D;
+  background-color: #9A475D;
   position: relative;
   overflow: auto;}
 
@@ -77,13 +77,13 @@ position: relative;}
 
 h1
 {font-size: 40px;
-color: ##D6F2FF;
+color: #D6F2FF;
 font-weight: 400;
 font-family: 'Jost', sans-serif;}
 
 h4
 {font-size: 18px;
-color: ##D6F2FF;
+color: #D6F2FF;
 font-weight: bold;
 font-family: 'Jost', sans-serif;}
 
@@ -95,9 +95,9 @@ right: 10;
 bottom: 4;
 left: 4;
 padding: 1rem;
-background-color: #FFD9C7;
+background-color: #9A475D;
 text-align: center;
-color: ##9A475D;
+color: #D6F2FF;
 font-size: 18px;
 font-weight: 400;
 font-family: 'Jost', sans-serif;;
@@ -121,12 +121,12 @@ font-family: 'Jost', sans-serif;;
 
 /* unvisited link */
 a:link {
-color: ##D3C4E3;
+color: #D6F2FF;
 }
 
 /* visited link */
 a:visited {
-color: ##D3C4E3;
+color: #D6F2FF;
 }
 
 /* mouse over link */
@@ -141,7 +141,7 @@ color: #7B82CC;
 
 @media (max-width: 800px){
 h1 {font-size: 30px;
-  color: ##9A475D;
+  color: #9A475D;
   font-weight: 100;
   font-family: 'Jost', sans-serif;}
 
@@ -162,7 +162,7 @@ text-align:left;}
 
  #bgtop {width: 100%;
   height: 400px;
-  background-color: #D6F2FF;
+  background-color: #9A475D;
   position: relative;
   overflow: auto;}
 
@@ -179,7 +179,7 @@ text-align:left;}
 margin-bottom:-2px;
 background-color:#9A475D;
 font-size: 20px;
-color: 58504A;
+color: #58504A;
 font-weight: 400;
 font-family: 'Jost', sans-serif;
 text-align:left;}
