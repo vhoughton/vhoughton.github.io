@@ -40,7 +40,9 @@ float:left;}
     float: right;}}
 
 body
-{margin:-2px;
+
+{width: 75%;
+margin:-2px;
 margin-bottom:-2px;
 background-color:#9A475D;
 font-size: 18px;
