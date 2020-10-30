@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167554708-1"></script>
@@ -14,124 +13,158 @@
 <title>Vicky Houghton-Price</title>
 <meta name="description" content="I design products and services.">
 <meta name="keywords" content="Vicky, Houghton-Price, Service, Product, Designer, Design">
-<link rel='icon' href='favicon.icon' type='image/orange.png'>
+<link rel='shortcut icon' type='image/png' href='images/favicon.svg'>
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="stylesheet.css">
 </head>
 
-<body>
+<header>
+  <div class="topnav">
+    <a href="#"><img class="header-img" src='images/VHP.svg' alt="home icon"</a>
+    <div class="topnav-right">
+      <a href="#work">Selected work</a>
+  </div>
+</header>
 
-<div class="container">
+<div class="body">
 
-<div class="text1">
-<h1>
-Tools to help caseworkers say 'no'</h1>
-<div>
-<h2> The challenge </h2>
-<p>
-  The Family Reunion Travel Assistance (FRTA) service is very popular, too popular. This means we've had almost a decade of going over budget.
-
-  With the purse strings tightening, FRTA found itself under more scrutiny than ever. The message was clear: if you can't find a way to manage the budget successfully, we may have to close the service entirely.
-
-  A closed service means hard won visas expire or desperate families turn to loan sharks for the cash.
-
-  My challenge was to explore ways we could start saying 'no' to *some* people, to prevent us having to say no to <bold>everyone</bold>.
-</p>
+<div class="selectedwork">
+<h1>Tools to help caseworkers say "no" and manage their budget</h1>
+<img src="images/FRTA.png" alt="image of a website where you can check if applications are open for travel assistance." width="100%" max-width="600px" min-width="200px">
+<p><strong>The challenge </strong><br>Help teams stay within budget while helping those most in need.</p>
+<p><strong>The solution</strong><br>A quick-check tool for local caseworkers to check if applications are open, and a new service model to go with it.</p>
+<p> Keep reading to hear how we got there or <a href="frta.redcross.org.uk" target="_blank">check out the live MVP</a></p>
 </div>
 
-<h2> What I did </h2>
-<p>
-By the time I started on this work, the team felt like they had the solution: Restrict the eligibility criteria so that we will not go over budget. As a result, the service had gone through 3 different eligibility criterias within one year. Each one narrower than the last, and yet we were still significantly over budget (47%). Each new criteria meant saying no to more people and had made the lives of caseworkers very challenging. Caseworkers felt unable to deal with the emotional load of communicating changing criteria's to very desperate people.
+<div class="selectedwork">
+  <h2>Context</h2>
+  <p>When a family is granted with a Family Reunion visa, they have 30 days to fund, plan and travel to the UK. This is hard for most people but is impossible for refugees and asylum seekers with little travel experience or financial security.</p>
+  <p>The Family Reunion Travel Assistance (FRTA) service provides financial and practical help to prevent families losing hard-won visas or resorting to desperate measures, e.g. loan sharks.</p>
+  <p>FRTA is unfortunately so popular, though, that it dramatically exceeds its budget each year and in the current economic climate finds its budget under more scrutiny than ever. </p>
+  <p>Previous attempts to restrict the criteria and help less people didn't reduce spending and families and caseworkers were struggling to keep up to date with the changing rules.</p>
+</div>
+<div class="selectedwork">
+<h2>Discovery</h2>
+<p>The original brief was to develop a more sophisticated vulnerability matrix to measure eligibility, offering a more nuanced, yet objective way for FRTA to identify and support those most in need.</p>
+<p> The discovery phase uncovered 2 false assumptions behind this brief:</p>
+<ol type="1"><li><strong>We can be objective about who is 'vulnerable'</strong>
+  <br> I ran a workshop to explore caseworkers' definition of 'vulnerable' and what questions they would ask to find that out.</p>
+  <p><ul>
+    <li>There was no shared understanding of what constitutes 'vulnerable'</li>
+      <li> Everyone needing travel assistance was 'vulnerable' in some way.</li>
+    </ul></p>
+    <img src="images/workshop photos.png" alt="photos of a workshop listing all the criteria for a vulnerable person, including GBV, poor health and large families."width="100%" max-width="600px" min-width="200px" padding="0 0 0 0">
 
-Caseworkers were demanding a smarter criteria that identified the people who needed the service most, and didn't rely on judgement calls from the frontline teams.
+<p><strong>Insight</strong> <br>The budget would never be able to support every vulnerable applicant, forcing frontline to say "you're not vulnerable enough" to very vulnerable people.</p></li>
+<li><strong>If we restrict the criteria enough, we won't go over budget</strong>
+<br> Analysis of historic costs and application data showed you can’t reliably predict the cost of each case. The below shows the cost of cases that were 95% higher or lower than the median. Restricted criteria wouldn’t prevent a £17k case as in the top-right corner.</p>
+<img src="images/frta-data.png" alt="a graph showing the huge range in cost per case. ranging from £100 to £17,000"width="100%" max-width="600px" min-width="200px" padding="0 0 10 0">
+<p><strong>Insight</strong> <br>Restricting criteria to reduce the number of eligible applications will not on its own reduce spending as each case could still cost far more than predicted.
+</p></li>
+</div>
 
-Having previously developed a method for checking eligibility online, I was asked to apply the same pattern to identify the people who need this service most.
+<div class="selectedwork">
+<h2>Exploring an alternative solution</h2>
+<p>The Discovery phase revealed a core issue, a cultural one: FRTA isn’t used to saying 'No'.</p>
+<p>To tackle this, we tested reframing the application process by tapping into a different yet commonly recognised service model: a fund, whereby applications would be accepted for as long as there was budget to support.</p>
+<p><strong>Hypothesis</strong><br>It is fairer as well as clearer and more sensitive to applicants to base support on money available than dictate who is more vulnerable.</p>
+</div>
+<div class="selectedwork">
+<h2>Prototyping through to an MVP</h2>
+<p>While there was still a need (and desire) for an eligibility checker but to test our hypothesis I designed a landing page that showed the remaining budget available to applicants.</p>
+<img src="images/frta-figma.png" alt="Screen grab of a figma prototype showing the remaining budget left and a CTA to check eligibility."width="100%" max-width="600px" min-width="200px" padding="0 0 10 0">
+
+<p>Testing this with caseworkers was a success:</p>
+<ul>
+<li>The mental model of a finite pot of money was universally understood</li>
+<li>Caseworkers said this would make it easier to explain why they can’t help</li>
+<li>Staff really appreciated the transparency</li>
+</ul>
+<p> We then tested this those not familiar with FRTA (friends, families, ex-clients), who also appreciated the transparency, understood why we were saying No and felt it seemed fair.</p>
+<p>While this was reassuring, there were some things we would only discover by testing live as we weren’t able to test with anyone currently looking for travel assistance. Asking someone to participate in research after saying we can't help them reunite with their family is a tough ask.</p>
+<div>
+
+  <div class="selectedwork">
+  <h2>Mapping the operational context</h2>
+ <ul><li>How would we manage the budgets, nationally or locally?</li>
+<li>How often would we refresh the budget? (timelines are crucial for people with expiring visas)</li>
+<li>How would we keep track of spending so that the budget is live and up to date?</li></ul>
+<p><strong>Step 1</strong> <br>
+  I mapped out a service blueprint and user journey with a team of caseworkers, forcing them to think about what these changes would mean in reality.</p>
+  <img src="images/miro screenshots.png" alt="Screen grab of the outputs of service blueprinting and user journeying with a team of caseworkers." width="100%" max-width="600px" min-width="200px" padding="0 0 10 0">
+
+<p><strong>Step 2</strong><br>
+  Having ironed out some of the operations, we shifted into an alpha phase to test these ideas for real. We first tested budget management in isolation vs. building everything.</p>
+
+<p>I designed an MVP specifically for caseworkers to guide their discussions with applicants and bring clarity to their work. Working in this way meant we could drip-feed changes and test the impact on users before developing an online application process.</p>
+</div>
+
+<div class="selectedwork">
+<h2>Building an MVP in Excel</h2>
+<p>I used Excel to make our MVP because so I could:</p>
+<ul>
+  <li>Build the financial model myself and avoid waiting for development support (ratio of designers to developers was 2:1)</li>
+<li>Avoid alienating non-technical staff who were all relatively familiar with Excel</li>
+<li>Store the information in a shared place</li>
+<li>Password protect the sheets I didn't want others to tinker with</li>
+</ul>
+<p>The MVP had 3 key functions</p>
+<ol type="1">
+<li><strong>Distribute budget based on historical data.</strong>
+  <br>Senior and frontline staff wanted to track and adjust spending in different areas so as to distribute budget based on need. Based on testing so far, this may not be the best approach but we will review once it's been live for a while.
+  <p><img src="images/distribution.png" alt="Graph showing the distribution of budget across 11 regions"" width="100%" max-width="600px" min-width="200px" padding="0 0 10 0"></p>
+</li>
+<li><strong>Log and track applications and related spending.</strong>
+  <br>The MVP calculates an estimate based on historic costs while we wait for a quote, and ultimately a final invoice. This ensures the budget is always live and up to date.
+  <p><img src="images/tracking.png" alt="Screen grab of the tracking sheet for national caseworkers to track spending" width="100%" max-width="600px" min-width="200px" padding="0 0 10 0"></p>
+</li>
+<li><strong>Quick check view for caseworkers.</strong><br>
+The front page was simplified so you could instantly check whether applications are open in a given area and, if so, how many passenger spaces remain. Caseworkers could then quickly tell an applicant if we can help or not and when to reapply.
+<p><img src="images/quick-check.png" alt="Screen grab of the quick check summary sheet in excel where local teams can see if applications are open in their area" width="100%" max-width="600px" min-width="200px" padding="0 0 10 0"></p>
+</li>
+</ol>
+</div>
+
+<div class="selectedwork">
+<h2>Replacing excel with a (less intimidating) front-end</h2>
+<p>Before going live, we did some more testing and, despite our best efforts, Excel worked for the backend but not the front end for 2 reasons:</p>
+<ol type="1">
+  <li>We can't store Excel files in a quick, easy access place</li>
+  <li>Excel phobia is a thing – some people will always flinch at the sight of a spreadsheet</li>
+</ol>
+<p>Working with in-house developers for a quick fix, they managed to host the quick-check element of our sheet via Microsoft Azure. With some css magic we had a public link.</p>
+<p><img src="images/FRTA.png" alt="Screen grab of the tracking sheet for national caseworkers to track spending" width="100%" max-width="600px" min-width="200px" padding="0 0 10 0"></p>
+
+</div>
+
+<div class="selectedwork">
+  <h2>Impact and next steps</h2>
+  <p>The MVP represents our alpha phase, which will run until December 2020. We will then review our impact qualitatively (with service users and staff) and quantitively (with data).</p>
+  <p>These are some of the questions we will want to answer:</p>
+  <ul>
+    <li>Will caseworkers say ‘No, applications have closed’ or is there more to do to change the culture?</li>
+<li>Were the FRTA team able to accurately track spending?</li>
+<li>Did we stay within budget?</li>
+<li>Did users understand why they had to reapply in January? Did they think it was fair</li>
+  </ul>
+  <p>We must then review the longer-term designs and see if they are still fit for purpose. The future designs are geared towards service user facing products, rather than caseworker tools.</p>
+  <p>You can check out the Figma wireframes below to see where we are headed.</p>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600px" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F6z57df1YqFinyezH6SoLv2%2FFRTA-Decision-Tree-July-20%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+
+<p>While we wait for the results of our alpha phase, one win already has been the evident appreciation of the additional financial context and understanding we sadly cannot help everyone in need.</p>
+<p>At the very least I hope that evidence of us saying No will equip the Red Cross policy and advocacy teams to fix the broken system of Family Reunion visas in the UK.
+CC: Priti Patel and co.
 </p>
+</div>
+<div class="selectedwork">
+<h2>Team</h2>
+<ul>
+  <li>Vicky : Service designer</li>
+  <li>Darren : Subject matter expert</li>
+  <li>Julio : Front-end engineer</li>
+  <li>Ged : Back-end engineer</li>
+</ul>
+</div>
 
-<h4> Pushing back on the first 'solution' </h4>
-<p>
-  In a bid to interrogate the brief a little, I spoke to lots if caseworkers, ran workshops with them and analysed historic costs and application data.
-
-  From this research, it became clear that the solution of a sophisticated, easy to use eligibility had two false assumptions:
-
-<bold>(1) We can be objective about who is most in need</bold>
-
-  Caseworkers and service managers I spoke to were keen on the idea of a "vulnerability matrix". A nuanced, yet objective way to identify who needed the service the most.
-
-  To explore this further we ran a workshop with caseworkers to explore their conception of 'vulnerable', and what questions they would ask to find that out.
-
-  ***[insert workshop photos]***
-
-  But what became clear was:
-
-  - There was no shared understanding of 'vulnerable'
-  - Everyone who came to FRTA was vulnerable in one way or another
-  - No matter how much we restrict the criteria, we can't afford to say yes to everyone who needs help.
-
-  That therefore means that whatever criteria we have, it will be smaller than the people who need our help. Forcing frontline staff to "no you're not desperate enough" to very desperate people.
-
-  <bold>(2) If we restrict the criteria enough, we won't go over budget.</bold>
-
-  But even if we found room for compromise, or if senior leaders made the executive decision on a new criteria, there was no evidence that could help us stay in budget.
-
-  Analysis of historic costs showed that you couldn't reliably predict the cost of each case. That meant that even if you restricted the criteria so that you were unlikely to receive more than x applications, those applications could end up being far more, or less than you predicted.
-
-  **[insert graphs]**
-
-  That left us needing a new alternative.
-</p>
-
-<h4> Exploring an alternative </h4>
-<p>
-  The discovery phase poked holes in the original plan, but also revealed the core problem, a cultural one. The service weren't used to saying no after years of *'we can always find the money somewhere'.*
-
-To tackle this core problem we experimented with a different service model which better reflected the reality. Instead of a continuous, never closing service, we reframed the application process so that it tapped into a different yet commonly held mental model: a fund. Such that applications are open for as long as we have the ££. When the money is gone, applications have to close.
-
-<bold>Hypothesis:</bold> If we say we can't help because we have no money, people will understand, and it would be easier to say no.
-</p>
-
-<h4> Prototyping through to MVP</h4>
-<p>
-  There was still a need (and desire) for an eligibility checker, but to test our hypothesis I included a landing page that indicated the budget.
-
-**[INSERT SCREENSHOT OF WEEKLY BUDGET]**
-
-Testing this initially with caseworkers to get their reactions was a success.
-
-- The mental model of a finite pot of money was pretty universal
-- Caseworkers felt they could explain why we can't help
-- Staff really appreciated the transparency
-
-We then tested this with people who weren't familiar with FRTA. Friends, families, ex-clients to ensure it was clear for people who had no context. They understood why we were saying no too, and it seemed fair. However, we weren't able to test with people actively looking for travel assistance right now due to the sensitivity of the situation: asking someone to participate in research after telling them we can't help them reunite with their family is a tough ask. There were somethings we'd have to test live.
-
-From testing we then had to look at the operational context:
-
-- How would we manage the budgets, nationally or locally?
-- How often would we refresh the budget (timelines are very important for people with expiring visas)
-- How would we keep track of spending so that the budget is live and up to date?
-
-Before making application tools for service users and referrers, we wanted to test this new way of working with an MVP. The MVP would be designed for caseworkers to guide their discussions with applicants and bring clarity to their work. Working in this way meant we could test the impact on users before developing an online application process.
-
-I used Excel to make our MVP.
-
-I used excel because:
-
-- I could build the financial model myself and it was relatively familiar for non-technical staff
-- I could store the information in a shared place
-- I could password protect the sheets I didn't want people to tinker with
-- I didn't have to wait for development support (ratio of designers to developers was 2:1)
-
-The MVP had the following elements:
-
-- **Distributed budget based on historical enquiry and live dispersal data:** Senior and frontline staff all wanted the budget to be distributed to the different areas based on need. This was to limit and keep track of spending in different areas. Based on testing, this probably isn't the best idea for a number of reasons, but we can review it once it's been live for a while.
-- **Tracking sheet:** A place for the central FRTA team to log applications and costs. It calculates an estimate based on historic costs until we receive a quote, and then finally the invoice. This allows the budget to stay live and up to date.
-- **A quick check view for caseworkers:** The front page was a simplified, no frills place to check if applications are open in your area, and if so, how many passenger spaces remain. This is so caseworkers can quickly tell an applicant if we can help or not and when to reapply.
-
-Before going live we did some more testing and turned out, despite our best efforts excel was ok for the backend, not so much the front end. For two reasons:
-
-(1) We can't store excel files in a quick, easy access place
-
-(2) Excel phobia is a thing. Without therapy, some people will always flinch at the sight of an excel.
-
-Working with our in-house developers for a quick fix, they managed to host the quick-check element of our sheet via Microsoft Azure. With some css magic we had a publicly available link.
-</p>
+</div>
+</html>

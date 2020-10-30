@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167554708-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167554708-1');
+</script>
+<title>Vicky Houghton-Price</title>
+<meta name="description" content="I design products and services.">
+<meta name="keywords" content="Vicky, Houghton-Price, Service, Product, Designer, Design">
+<link rel='shortcut icon' type='image/png' href='images/favicon.svg'>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<header>
+  <div class="topnav">
+    <a href="#index">Vicky Houghton-Price</a>
+    <div class="topnav-right">
+      <a href="#work">Selected work</a>
+  </div>
+</header>
+
+<div class="body">
+
+<div class="selectedwork">
+<h1>Creating a pattern for meaningful referrals</h1>
+<img src="images/referrals.png" alt="image of a website where you can make an enquiry to find your family" width="100%" max-width="600px" min-width="200px">
+<p><strong>The challenge : </strong><br>Reduce waiting lists for the family tracing service.</p>
+<p><strong>The solution : </strong><br>A referral process that identifies who we can help, and whether they need a full or partial service.</p>
+</div>
+<div class="selectedwork">
+  <h2>Context</h2>
+  <p> The British Red Cross is part of a global network of staff and volunteers are searching, finding and reconnecting displaced families that have lost contact through migration, conflict or disaster. </p>
+  <p> But in the wake of mass migration and disaster, demand is growing, as are waiting lists. Some waiting lists in the UK are so long that certain areas have had to close for new referrals entirely.</p>
+</div>
+<div class="selectedwork">
+<h2>Discovery</h2>
+<p> One thing was clear before we started, the problem wasn't waiting lists, they were the symptom. The discovery phase was to identify why these waiting lists were building and where the greatest opportunities were. The discovery phase lasted 4 weeks and consisted of:</p>
+<ul>
+<li class="slimlist"> Shadowing the service and casework interviews.</li>
+
+<li class="slimlist"> Reading and unifying all the existing work.</li>
+
+<li class="slimlist"> Expert interviews with senior management, data and technology specialists, tracing specialists, branch managers, co-ordinators and volunteer caseworkers.</li>
+</ul>
+<p>From this research, I was able to map the service and the key points in the journey from A to F:</p>
+<ol type="A">
+<li class="boldlist">Receiving a referral</li>
+<li class="boldlist">Booking an appointment</li>
+<li class="boldlist">Interviewing the client</li>
+<li class="boldlist">Recording their information</li>
+<li class="boldlist">Searching for their relative(s)</li>
+<li class="boldlist">Updating the client</li>
+</ol>
+
+<p>At ever stage there were things slowing the service down and contributing to long waiting lists. Rather than tackle everything at once, I facilitated a prioritisation exercise with a small team of caseworkers and managers. The matrix helped us find the sweet spot where their was lots of opportunity to make big impact.
+</p>
+<img src="images/ift-prioritisation.svg" alt="matrix diagram with all points A-F plotted against high vs low impact and opportunity vs constraints. A:referrals had the highest impact and opportunity" width="100%" max-width="600px" min-width="200px">
+<p>You can read in detail about the findings in this <a href="https://medium.com/digital-and-innovation-at-british-red-cross/wrapping-up-discovery-3412b3b3ea98" target="_blank">blog</a>, but to summarise, we decided to focus on referrals. </p>
+<p> This is because "lots of the time, [enquirers] come to the interview and don't know why they are there". 75% of cases come to us via referral and yet it is 'often only in the first interview that we realise we can't help'.</p>
+<p>In 2019 there were 2713 intial interviews, 26% led to a full tracing enquiry, 41% led to clients being added to our online register 'Trace the Face' so that family could find the, and 33% led to a closed case. That meant that 2116 interviews shouldn't have happened or could have been 66% shorter.</p>
+<img src="images/ift-before.svg" alt="A diagram showing how all appointments are 3 hours long, with 2 volunteers and an interpreter, but only 26% lead to a full tracing enquiry" width="100%" max-width="600px" min-width="200px">
+<p><strong>The challenge updated</strong><br> How might we make the most of the referral process so that we only invite people to interiew when we are confident we can help them find their family? </p>
+</div>
+<div class="selectedwork">
+<h2>Coming up with ideas as a remote team</h2>
+<p>The frontline teams are spread all over the country, so we used Trello and some facilitated sessions to come up with a wide range of ideas, but also for me to share my early designs and ger feedback.</p>
+<img src="images/ideas-board.png" alt="screenshot of a Trello board where people could remotely come up with ideas, vote for their favourites and give feedback." width="100%" max-width="600px" min-width="200px">
+</div>
+
+<div class="selectedwork">
+<h2>The solution</h2>
+<p>A branching form that asked enquirers and their referrers the questions need to work out if we could open a case or not.</p>
+<img src="images/ift-after.svg" alt="diagram showing how a form can identify who needs a long appointment vs a short appointment, and who we can't help at all. Rather than sending all clients to interview." width="100%" max-width="600px" min-width="200px">
+</div>
+<div class="selectedwork">
+<h2>Prototyping and testing assumptions</h2>
+<p> <strong>1. Maps, diagrams and user journeys</strong>
+<br> We started by mapping out the kinds of questions we'd need to ask and the order with the casework managers.</p>
+<img src="images/ift-postits.png" alt="Photo of a wall of post-its forming a diagram of the branching logic." width="100%" max-width="600px" min-width="200px">
+<p><strong> 2. Figma prototypes for testing with internal referrers</strong>
+<br> I then made some Figma prototypes to test with caseworkers and social workers (referrers). Following some co-designing sessions we got closer to something that worked for the service, and put it into code to test with real end users - referrers.</p>
+<p> <strong>3. <a href="https://family-tracing.herokuapp.com/" target="_blank">Coded prototypes</a> for testing with external referrers</strong>
+<br> I used the gov.uk prototyping kit to create a multi-branching form. This meant testing with referrers (social workers, legal advisors, solicitors, foster parents, youth workers etc.)</p>
+<img src="images/gds-prototype.png" alt="3 mobile screenshots of a GDS prototype question page, asking 'what is your relationship with the enquirer? and referral details.'" width="100%" max-width="600px" min-width="200px">
+<p><strong>4.Reflecting on assumptions, sharing findings with local teams.</strong>
+<br>I went through multiple testing cycles where I regularly changed the prototype, testing new ideas each time. Every fortnight we kept local teams up to date and involved in the design process. You can check out an <a href="https://brcsbrms-my.sharepoint.com/:v:/g/personal/vickyhoughtonprice_redcross_org_uk/EaMUVCEgwxdPr1jzdO47mV0BJEBA5HwFmC0t2b7IQxSSgA?e=MBGVqf" target="_blank">example of the informal show and tells</a>, but skip a few minutes ahead for the assumptions section.</p>
+<p><strong>5. Identifying a service pattern that others could use </strong>
+<br>Other parts of the BRC became interested in this work and how it could benefit them. I unpacked how this design could be a repeatable pattern that can be used elsewhere. And demonstrated a few use cases.</p>
+<p><strong>6. Making a case for development support </strong>
+<br>With a multi-use design pattern, it was easy to get support, but coronavirus, and only 2, very over-worked developers in house. Timelines were shredded.</p>
+<p>Fortunately, <a href="madetech.com" target="_blank">Made Tech</a> gave us some pro bono help to convert the prototype into a <a href="http://redcross-family-tracing.herokuapp.com/" target="_blank">form with a back end</a> that could take enquiries. </p>
+<img src="images/mvp-screenshot.png" alt="Screenshot of the MVP enquiry form" width="100%" max-width="600px" min-width="200px">
+</div>
+<div class="selectedwork">
+<h2>Next steps</h2>
+<p> We are making some more changes before launching a pilot in Yorkshire at the end of 2020.</p>
+<img src="images/referrals.png" alt="image of a website where you can make an enquiry to find your family" width="100%" max-width="600px" min-width="200px">
+</div>
+<div class="selectedwork">
+<h2>Team</h2>
+<ul>
+  <li>Vicky: Service designer</li>
+  <li>Becky: Service manager</li>
+  <li>Alex: Subject matter expert</li>
+  <li>Made Tech: Software engineers</li>
+</ul>
+</div>
+
+</div>
+<div class="bottom-nav">
+  <a href="/support">Next > </a>
+</div>
+</footer>
+
+</html>
